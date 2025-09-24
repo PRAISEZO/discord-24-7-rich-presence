@@ -1,16 +1,16 @@
-application_id: "1186359755745284259"
+application_id: "1362456388520906792"
 
 # Activity type: 0 = Playing, 2 = Listening, 3 = Watching
-type: 3
+type: 1
 
-name: "PornHub"
-details: "Watching Furry futa"
-state: "Join"
+name: "Isabelle"
+details: "I love you isa!"
+state: "afk!"
 
 # Images
-largeImageKey: "1987"
-largeImageText: "on pornhub"
-smallImageKey: "1987"
+largeImageKey: "embedded_background"
+largeImageText: "Love you"
+smallImageKey: "embedded_background"
 smallImageText: "Subscribe"
 
 # URL (optional, works only with certain types)
@@ -21,8 +21,8 @@ buttons:
   - name: "Visit Website"
     url: "https://www.nexoscreator.tech"
   - name: "GitHub Repo"
-    url: ""
+    url: "https://www.youtube.com"
 
 # Custom status
-custom_status: "HI!"
+custom_status: "if you're seeing this prolly not actually on lol"
 custom_emoji: "🔥"
