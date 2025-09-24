@@ -7,8 +7,6 @@ const fs = require("fs");
 const yaml = require("js-yaml");
 const dotenv = require("dotenv");
 const config = yaml.load(fs.readFileSync("./config.yml", "utf8"));
-const express = require('express')
-const app = express()
 const port = process.env.PORT || 8080
 
 dotenv.config();
