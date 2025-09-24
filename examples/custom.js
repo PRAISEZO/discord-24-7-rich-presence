@@ -7,5 +7,5 @@ const customStatus = new CustomStatus(client, {
 
 client.user.setPresence({
   activities: [customStatus.toJSON()],
-  status: "online"
+  status: "dnd"
 });
