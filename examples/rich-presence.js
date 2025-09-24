@@ -17,5 +17,5 @@ const activity = new RichPresence(client)
 
 client.user.setPresence({
   activities: [activity.toJSON()],
-  status: "online"
+  status: "dnd"
 });
