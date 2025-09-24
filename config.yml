@@ -21,7 +21,7 @@ buttons:
   - name: "Visit Website"
     url: "https://www.nexoscreator.tech"
   - name: "GitHub Repo"
-    url: "https://github.com/"
+    url: ""
 
 # Custom status
 custom_status: "HI!"
