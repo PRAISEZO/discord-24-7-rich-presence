@@ -7,7 +7,7 @@ const fs = require("fs");
 const yaml = require("js-yaml");
 const dotenv = require("dotenv");
 const config = yaml.load(fs.readFileSync("./config.yml", "utf8"));
-
+const port = 8080
 dotenv.config();
 const client = new Client();
 
@@ -49,7 +49,7 @@ client.on("ready", async () => {
   try {
     client.user.setPresence({
       activities: [customStatus.toJSON(), rich.toJSON()],
-      status: "online", // online, idle, dnd, invisible
+      status: "dnd", // online, idle, dnd, invisible
     });
     console.log("✅ Rich Presence is now active!");
   } catch (err) {
